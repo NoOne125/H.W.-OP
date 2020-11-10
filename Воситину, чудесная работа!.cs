@@ -73,7 +73,7 @@ namespace CSharp_Shell
            for (int i = 0; i< a.Length; i++){
            Console.Write(a[i] + "  ");}
            Console.WriteLine();
-           Console.Write("Какой элемент хотите удалить? (удалит максимальный, если номер больше номера последнего элемента): ");
+           Console.Write("Какой элемент хотите удалить? (удалит последний, если номер больше длины масива): ");
            int k = int.Parse(Console.ReadLine());
            Array_Del(a, k);
            Array.Resize(ref a, a.Length-1);
