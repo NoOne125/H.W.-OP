@@ -33,26 +33,18 @@ namespace CSharp_Shell
         	do{
            try{
            	int[] a;
-           Console.Write("Как хотите задать масив? (1 - вручную, другое число - рандомно): ");
+           Console.Write("Как хотите задать масив? ('1' - вручную, [другое число] - рандомно): ");
            if (int.Parse(Console.ReadLine()) == 1){
-            List <int> h = new List<int>();
-            Console.WriteLine("Вводите числа по одному (для окончания ввода введите не число): ");
-            try{
-            while(true){
-            	h.Add(int.Parse(Console.ReadLine()));}
-            }
-            catch{
-            	a = new int[h.Count];
-            	Console.WriteLine("Ок, ввод окончен. Ваш масив: ");
-            	for(int i = 0; i<h.Count; i++){
-            		a[i]=h[i];
-            		Console.Write(a[i]+ "  ");
-            	}
-            }
-            Console.WriteLine();
-           }
+           Console.Write("Введите числа через пробел: ");
+           string[] nabor = (Console.ReadLine()).Split(' ', StringSplitOptions.RemoveEmptyEntries);
+           a = new int[nabor.Length];
+           Console.Write("Ваш масив: ");
+           for (int i= 0; i<nabor.Length; i++){
+           a[i]=int.Parse(nabor[i]);
+           	Console.Write(a[i]+"  ");
+           }}
            else{
-           Console.Write("Введите кол-во элементов масива (не меньше 3): ");
+           Console.Write("Введите кол-во элементов масива: ");
            int N = int.Parse(Console.ReadLine());
            a = new int[N];
            Random rand = new Random();
@@ -66,8 +58,9 @@ namespace CSharp_Shell
            a[i] = rand.Next(min, max);
            Console.Write(a[i]+"  ");
            }
-           Console.WriteLine();}
-           Console.Write("Масив с удаленным третим элементом: ");
+           }
+           Console.WriteLine();
+           Console.Write("Масив с удаленным третим или последним (если масив меньше 3 по длине) элементом: ");
            Array_Del(a, 3);
            Array.Resize(ref a, a.Length-1);
            for (int i = 0; i< a.Length; i++){
@@ -77,11 +70,11 @@ namespace CSharp_Shell
            int k = int.Parse(Console.ReadLine());
            Array_Del(a, k);
            Array.Resize(ref a, a.Length-1);
-           Console.WriteLine("Новий масив: ");
+           Console.Write("Новий масив: ");
            for (int i = 0; i< a.Length; i++){
            Console.Write(a[i] + "  ");
            }
-           Console.WriteLine("Количество одинаковых за абсолютным значением, но разных по знаку пар: " + N_eq(a));
+           Console.WriteLine("\nКоличество одинаковых за абсолютным значением, но разных по знаку пар: " + N_eq(a));
            }
            catch{
            	Console.WriteLine("Что-то пошло не так");
