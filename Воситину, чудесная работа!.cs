@@ -21,7 +21,7 @@ namespace CSharp_Shell
     	static int N_eq(int[] a){
     		int N_e = 0;
     		for (int i=0; i<a.Length-1; i++){
-    			if(a[i]==(-1)*a[i+1])
+    			if(a[i]==(-1)*a[i+1] && a[i] != 0)
     			N_e++;
     		}
     		return N_e;
