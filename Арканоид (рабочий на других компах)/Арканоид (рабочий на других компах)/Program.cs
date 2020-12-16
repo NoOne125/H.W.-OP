@@ -11,7 +11,7 @@ namespace Арканоид
     {
         static int[,] arr = new int[7, 7];
         const int bl_w = 11, bl_h = 3;
-        static int c_w = 85, c_h = 70, pl_x, pl_y, pl_w = 14, life = 3, blocks = 0;
+        static int c_w = 85, c_h = 80, pl_x, pl_y, pl_w = 14, life = 3, blocks = 0;
         static bool sti = false;
         static Random rand = new Random();
         static ConsoleKey k;
@@ -281,7 +281,7 @@ namespace Арканоид
 
         static void Main(string[] args)
         {
-            Console.SetWindowSize(Console.WindowWidth + 5, 70);
+            Console.SetWindowSize(85, 80);
             Console.Title = "Арканоид";
             Console.ReadKey();
             Console.CursorVisible = false;
