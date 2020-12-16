@@ -1,0 +1,13 @@
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.exe
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.deps.json
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.runtimeconfig.json
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.dll
+C:\Users\Admin\Desktop\Арканоид\Арканоид\bin\Debug\netcoreapp3.1\Арканоид.pdb
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.AssemblyInfo.cs
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.dll
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.pdb
+C:\Users\Admin\Desktop\Арканоид\Арканоид\obj\Debug\netcoreapp3.1\Арканоид.genruntimeconfig.cache
