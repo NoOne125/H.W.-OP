@@ -198,7 +198,7 @@ namespace Арканоид
         static void Go()
         {
             life = 3;
-            sh_x = c_w / 2 - 1;
+            sh_x = c_w / 2 - 2;
             sh_y = c_h - 11;
             pl_x = c_w / 2 - pl_w / 2 - (c_w / 2 - pl_w / 2) % 3 / 2;
             pl_y = c_h - 9;
