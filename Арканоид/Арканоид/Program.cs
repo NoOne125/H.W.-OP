@@ -118,8 +118,9 @@ namespace Арканоид
                 }
                 else
                 {
-                    if (Console.Title == "Арканоид (раунд 3)")
+                    if (Console.Title == "Арканоид (раунд 3)" || Console.Title == "Арканоид (Финал)")
                     {
+                        Console.Title = "Арканоид (Финал)";
                         Console.Clear();
                         Console.BackgroundColor = ConsoleColor.Black;
                         Console.ForegroundColor = ConsoleColor.White;
