@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Арканоид (рабочий на других компах)", "Арканоид (рабочий на других компах)\Арканоид (рабочий на других компах).csproj", "{F4BA90F7-8FD2-46B5-BC10-B6D3C7A8708E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4BA90F7-8FD2-46B5-BC10-B6D3C7A8708E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4BA90F7-8FD2-46B5-BC10-B6D3C7A8708E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4BA90F7-8FD2-46B5-BC10-B6D3C7A8708E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4BA90F7-8FD2-46B5-BC10-B6D3C7A8708E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E576D9A-384D-46B9-8BA9-D26CD7803D69}
+	EndGlobalSection
+EndGlobal
