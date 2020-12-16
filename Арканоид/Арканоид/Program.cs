@@ -139,18 +139,18 @@ namespace Арканоид
                         }
                     }
 
-                    else if (Console.Title == "Арканоид (раунд 2)")
+                    if (Console.Title == "Арканоид (раунд 2)")
                     {
                         Round_three();
                         Go();
                     }
 
-                    else if (Console.Title == "Арканоид (раунд 1)")
+                    if (Console.Title == "Арканоид (раунд 1)")
                     {
                         Round_two();
                         Go();
                     }
-                    else if (Console.Title == "Арканоид")
+                    if (Console.Title == "Арканоид")
                     {
                         Round_one();
                         Go();
