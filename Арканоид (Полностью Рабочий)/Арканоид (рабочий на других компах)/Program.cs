@@ -117,9 +117,9 @@ namespace Арканоид
                             for (int i = 0; i < bonus_type.Count; i++)
                             {
                                 Console.BackgroundColor = ConsoleColor.Gray;
-                                Draw_p((int)bonus_x[i], (int)bonus_y[i] - 1, "   ");
-                                Console.BackgroundColor = ConsoleColor.Gray;
                                 Draw_p((int)bonus_x[i], (int)bonus_y[i], "   ");
+                                Console.BackgroundColor = ConsoleColor.Gray;
+                                Draw_p((int)bonus_x[i], (int)bonus_y[i] + 1, "   ");
                                 bonus_x.RemoveAt(i);
                                 bonus_y.RemoveAt(i);
                                 bonus_type.RemoveAt(i);
